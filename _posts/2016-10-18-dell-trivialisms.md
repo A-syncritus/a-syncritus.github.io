@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dell 1F66 and 6FF1
-subtitle: Wash and repeat to secure
+subtitle: Wash and repeat. All secure
 # bigimg: /images/path.jpg
 ---
 
@@ -17,7 +17,6 @@ Just like with the [Dell 1D3B]({% post_url 2016-06-09-dell-1d3b %}) they just ad
 Interestingly enough the engineers probably realized that simply chainging the code around does not add anything to the security of their algorithms, so when they were tasked with the Dell 6FF1
 bios they did not bother to touch the code, but simply change the character map and some constants.
 
-Given that it's been two years since the original publication, and Dell had a plenty of notice I had published the code to the [free BIOS recovery](https://bios-pw.org/) site and my [GitHub fork](https://github.com/A-syncritus/pwgen-for-bios),
-May be they will make the effort and fix the code. Then maybe they will not, but here is [a good read](https://dogber1.blogspot.nl/2010/07/how-to-protect-better-secure-bios.html).
+Given that it's been two years since the original publication, and Dell had a plenty of notice I had pushed the code [here](http://asyncrit.us/bios-pw/). The pull request to [free BIOS recovery](https://bios-pw.org/) site is in process. May be they will make the effort and fix the code. Then maybe they will not, but here is [a good read](https://dogber1.blogspot.nl/2010/07/how-to-protect-better-secure-bios.html) to do in the mean time.
 
-A friendly public notice - don't pay for your BIOS recovery, call your vendor or do it for free.
+A friendly public notice - don't pay for your BIOS recovery, call your vendor or find a free gen. Or just do it yourself, most vendors are sadly seem to be ignoring proper encryption standards.
