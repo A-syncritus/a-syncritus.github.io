@@ -8,9 +8,10 @@ No, I am not Phineas Fisher, but I do think that good security education benefit
 against the most lazy attacker, making it now, in the age of dedicated, well funded and even state sponsored adversaries, an increasingly dangerous attitude.
 
 So, to get to the insides of your BIOS crypto, do this:
+
 1. Download the EFI BIOS distribution for your motherboard from the vendor site. Most of them have BIOS's dating back several years.
 
-2. The package you downloaded has the testin/flashing etc built in. You need to extract the actual EFI code from the distribution.
+2. The package you downloaded has the testing/flashing etc code built in. You need to extract the actual EFI code from the distribution.
 Most of the time you could just use a standard archive extractor to get it out. Sometimes you need to search for archive identifier inside the package. Other times you might need a specialized extractor ("extract-hdr-from-exe")
 
 3. Now unpack your EFI code with the UEFIExtract that is a part of the UEFITool
